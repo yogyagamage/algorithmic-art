@@ -87,15 +87,15 @@ function drawCircularLines(centerX, centerY, radius) {
 function drawDynamicCenter(radius) {
     let numTriangles = 30;
     let angleStep = TWO_PI / numTriangles;
+    //0.4
+    //0.5
+    let triHeight = radius * 0.6;
+    let triWidth = radius * 0.15;
     for (let i = 0; i < numTriangles; i++) {
         let angle = i * angleStep;
         stroke(colors[randomColorIndices[i]]);
         push();
         rotate(angle);
-        //0.4
-        //0.5
-        let triHeight = radius * 0.6;
-        let triWidth = radius * 0.15;
         triangle(0, 0, -triWidth, triHeight, triWidth, triHeight);
         pop();
     }

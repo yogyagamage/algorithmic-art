@@ -1,6 +1,6 @@
 ## Shattering glass or what you will
 
-This artwork is inspired by a bullet going through glass. However, after some iterations it no longer looked like shattering glass, hence the name 'Breaking glass [or what you will](https://en.wikipedia.org/wiki/Twelfth_Night)'
+This artwork is inspired by a bullet going through glass. However, after some iterations it no longer looked like shattering glass, hence the name 'Shattering glass [or what you will](https://en.wikipedia.org/wiki/Twelfth_Night)'
 
 The underlying algorithm is [Voronoi diagrams](https://en.wikipedia.org/wiki/Voronoi_diagram).
 
